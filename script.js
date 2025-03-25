@@ -1,6 +1,7 @@
-import React from "react";
+import React, { useState } from "react";
 
 const script = () => {
+  const[login, setlogin] = useState(true)
   return (
     <div>
       <form>
@@ -18,6 +19,7 @@ const script = () => {
         <input type="paswords" />
         </div>
         <button>submited</button>
+        <p>already register <a href="">login</a></p>
       </form>
     </div>
   );
