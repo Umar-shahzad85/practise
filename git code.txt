@@ -1,0 +1,34 @@
+1. git config --global user.name “[firstname lastname]”
+2. git config --global user.email “[valid-email]”
+3. git init
+4. git add .
+5. git commit -m "xyz"
+6. git log   =>[for commit history]
+====[for short history]==
+7. git log --oneline  
+====[for revert history]===  means commit code with bugs
+
+firstly commits code
+
+1. git add .
+2. git commit - 'new fun with bugs'
+
+Now revert head move on previos comments
+1. git log --oneline 
+ 8f6ce5e shaw = >head point on this id
+now head moves on this a3f7521 id
+
+2. git reset --hard a3f7521
+a3f7521 (HEAD -> master) add form in script.js
+
+
+
+Delete file from folder
+1.git rm [file]
+
+check status 
+1. git status
+
+
+
+
