@@ -22,6 +22,10 @@ now head moves on this a3f7521 id
 a3f7521 (HEAD -> master) add form in script.js
 
 
+main rvert commands 
+1. git revert <shaw>
+
+
 
 Delete file from folder
 1.git rm [file]
@@ -31,4 +35,12 @@ check status
 
 
 
+when i create github acounts to connect github 
+
+1. git remote add origin https://github.com/Umar-shahzad85/practise.git
+2. git remote -v
+
+==== output ====
+origin  https://github.com/Umar-shahzad85/practise.git (fetch)
+origin  https://github.com/Umar-shahzad85/practise.git (push)
 
