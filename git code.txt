@@ -45,6 +45,51 @@ origin  https://github.com/Umar-shahzad85/practise.git (fetch)
 origin  https://github.com/Umar-shahzad85/practise.git (push)
 
 
+
+========= How to check existing branch name =============
+
+1. git branch
+    . master or main
+
+
+f72a84b (HEAD -> main, origin/main) add text file
+b91a870 add states in login form
+877951e add new fub=n with the name of city
+b7b3c78 add new ager function
+a3f7521 add form in script.js
+c001d56 intial code commit
+
+
+ =========how to create branch name=======
+ 1. git branch "branch name"
+
+ branch switch in to main umat-feet 
+ 1.git checkout Branch name
+ 2. git branch
+ 3. git add .
+ 4. git commit -m 'add new changings'
+ 5. git push ==> got error
+ {
+    fatal: The current branch umar-feat has no upstream branch.      
+    To push the current branch and set the remote as upstream, use   
+
+    git push --set-upstream origin umar-feat
+
+    To have this happen automatically for branches without a tracking
+    upstream, see 'push.autoSetupRemote' in 'git help config'. }
+
+
+    now solved this one to create branch on Remote
+
+6. git push --set-upstream origin umar-feat
+7. git push
+    Everything up-to-date
+
+
+
+
+
+
 1. git branch name
 2. git checkout name
 
