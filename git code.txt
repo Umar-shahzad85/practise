@@ -66,5 +66,26 @@ c001d56 intial code commit
  branch switch in to main umat-feet 
  1.git checkout Branch name
  2. git branch
+ 3. git add .
+ 4. git commit -m 'add new changings'
+ 5. git push ==> got error
+ {
+    fatal: The current branch umar-feat has no upstream branch.      
+    To push the current branch and set the remote as upstream, use   
+
+    git push --set-upstream origin umar-feat
+
+    To have this happen automatically for branches without a tracking
+    upstream, see 'push.autoSetupRemote' in 'git help config'. }
+
+
+    now solved this one to create branch on Remote
+
+6. git push --set-upstream origin umar-feat
+7. git push
+    Everything up-to-date
+
+
+
 
 
