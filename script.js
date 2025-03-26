@@ -4,6 +4,7 @@ const script = () => {
   const[login, setlogin] = useState(true)
   return (
     <div>
+      <h1 className="d-flex alig-items-center bd-danger ">Registration form</h1>
       <form>
         <h4>Login</h4>
         <div className="name">
