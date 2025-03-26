@@ -44,3 +44,27 @@ when i create github acounts to connect github
 origin  https://github.com/Umar-shahzad85/practise.git (fetch)
 origin  https://github.com/Umar-shahzad85/practise.git (push)
 
+
+
+========= How to check existing branch name =============
+
+1. git branch
+    . master or main
+
+
+f72a84b (HEAD -> main, origin/main) add text file
+b91a870 add states in login form
+877951e add new fub=n with the name of city
+b7b3c78 add new ager function
+a3f7521 add form in script.js
+c001d56 intial code commit
+
+
+ =========how to create branch name=======
+ 1. git branch "branch name"
+
+ branch switch in to main umat-feet 
+ 1.git checkout Branch name
+ 2. git branch
+
+
